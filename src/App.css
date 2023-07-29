@@ -8,3 +8,8 @@ body {
   background-color: var(--tg-theme-bg-color);
   color: var(--tg-theme-text-color)
 }
+
+.App {
+  height: 100vh;
+  width: 100vw;
+}
