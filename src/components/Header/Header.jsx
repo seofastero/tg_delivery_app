@@ -1,9 +1,9 @@
 import Button from "../Button/Button"
 import './Header.css'
-const Header = () => {
+const Header = (props) => {
     return (
-        <div className='header'>
-            <Button>Закрыть</Button>
+        <div className='header' {...props}>
+            <Button >Закрыть</Button>
             <span className={'username'}>
 
             </span>

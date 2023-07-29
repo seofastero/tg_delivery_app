@@ -14,7 +14,7 @@ function App() {
   }
   return (
     <div className="App">
-      <Header />
+      <Header onClick={onClose} />
       <Categories />
       <ProductList />
     </div>
