@@ -1,11 +1,9 @@
 .products {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    row-gap: 5px;
-    column-gap: 5px;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 15px;
     width: 100%;
     height: 78%;
     border: 1px solid lightgray;
-    background-color: rgb(140, 212, 206);
-    padding: 5px;
+    overflow-y: scroll;
 }

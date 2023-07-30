@@ -1,4 +1,3 @@
-import Button from "../Button/Button"
 import './ProductList.css'
 import ProductCard from "./ProductCard/ProductCard"
 const ProductList = () => {
@@ -8,6 +7,10 @@ const ProductList = () => {
             <ProductCard />
             <ProductCard />
             <ProductCard />
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
+
         </div>
     )
 }

@@ -1,0 +1,33 @@
+.categories {
+    width: 100%;
+    min-height: 10%;
+    border: 1px solid lightgray;
+
+    .list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        height: 100%;
+        width: 100%;
+        gap: 10px;
+        padding: 5px;
+
+        .category {
+            display: flex;
+            height: 34px;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+            border-radius: 24px;
+            font-size: 14px;
+            font-weight: 600;
+            color: #9586A8;
+
+            &:hover {
+                background-color: #E2CBFF;
+                color: #6C0EE4;
+
+            }
+        }
+    }
+}
